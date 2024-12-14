@@ -1,0 +1,67 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #ece8fc, #ffffff);
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #7e3af2;
+    margin-bottom: 20px;
+}
+
+.formContainer {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px 40px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.inputGroup {
+    margin-bottom: 20px;
+}
+
+.label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.input:focus {
+    border-color: #7e3af2;
+}
+
+.saveButton {
+    width: 100%;
+    padding: 12px;
+    background: #7e3af2;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.saveButton:hover {
+    background: #5a29a3;
+}

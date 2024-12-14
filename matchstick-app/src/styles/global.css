@@ -1,0 +1,79 @@
+/* Navbar Styles */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #f3eaff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+}
+
+.nav-link {
+    text-align: center;
+    color: #7e3af2;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    font-size: 12px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #5a29a3;
+}
+
+.nav-icon {
+    font-size: 20px;
+}
+
+/* Button Styles in Navbar */
+.nav-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #7e3af2;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    font-size: 12px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-button:hover {
+    color: #5a29a3;
+}
+/* global.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(to bottom, #eae4f8, #faf9fc);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #333;
+}
+
+h1, h2, h3 {
+    color: #4a47a3;
+}
+
+button {
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
